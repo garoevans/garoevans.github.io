@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            GAROEVANS
+tagline:          'Developer, Apprentice, Father & Husband'
+description:      ''
+url:              http://github.garoevans.com
+
+author:
+  name:           'Gareth Evans'
+  url:            https://twitter.com/garoevans
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/garoevans/garoevans.github.io
