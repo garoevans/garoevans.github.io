@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maybe PHP Needs a Brother: SPHP
+title: Maybe PHP Needs a Brother, SPHP
 ---
 
 So, I’ve been trying my best recently to keep up to date with “the community” and it’s often… how do I put this; NUTS! I’m subscribe to the [PHP](http://php.net/) internals mailing list, and though it is very interesting and I love knowing what’s going on, these guys can get rude. To me, it seems that PHP is at a cross roads and some REALLY big decisions are needing to be made. Take a look at some of these RFCs:
