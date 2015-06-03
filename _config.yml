@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            GAROEVANS
 tagline:          'Developer, Apprentice, Father & Husband'
-description:      ''
+description:      'A dumping ground for Gareth Evans: developer, apprentice, father & husband'
 url:              http://github.garoevans.com
 
 author:
@@ -18,7 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.0.0
+version:          0.0.1
 
 github:
   repo:           https://github.com/garoevans/garoevans.github.io
