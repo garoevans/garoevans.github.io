@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing Legacy PHP: Why?
+title: Testing Legacy PHP. Why?
 ---
 
 In my first post in this testing series; [Testing Legacy PHP: Characterization Tests](/2014/06/14/testing-legacy-php-characterization-tests/), I looked at how we might go about testing legacy PHP. Now I want to look at why we might go about testing legacy PHP.
@@ -13,10 +13,10 @@ It’s important to note that this realisation was based around my desire to ref
 
 The rewrite vs refactor debate is not one I’m going to get into here, but you only need to take a look at the [google results](https://www.google.co.uk/search?q=rewrite%20vs%20refactor) to see how big this debate is;
 
-- http://www.targetprocess.com/blog/2009/11/refactoring-vs-rewrite.html
-- http://www.infoq.com/news/2009/11/refactor-rewrite
-- http://www.klocwork.com/blog/code-refactoring/refactoring-vs-rewriting-why-it-matters/
-- http://www.joelonsoftware.com/articles/fog0000000069.html
+- [http://www.targetprocess.com/blog/2009/11/refactoring-vs-rewrite.html](http://www.targetprocess.com/blog/2009/11/refactoring-vs-rewrite.html)
+- [http://www.infoq.com/news/2009/11/refactor-rewrite](http://www.infoq.com/news/2009/11/refactor-rewrite)
+- [http://www.klocwork.com/blog/code-refactoring/refactoring-vs-rewriting-why-it-matters/](http://www.klocwork.com/blog/code-refactoring/refactoring-vs-rewriting-why-it-matters/)
+- [http://www.joelonsoftware.com/articles/fog0000000069.html](http://www.joelonsoftware.com/articles/fog0000000069.html)
 
 ##Why?
 
@@ -32,6 +32,6 @@ Fixing legacy code (or fixing code in general) is important. But, when refactori
 
 Each time those tests are run you can be confident that you haven’t broken (or fixed) anything.
 
-I’m not saying that you should have 100% confidence in an automated test suite. Testers and QA are very important, but you should get the idea.
+I'm not saying that you should have 100% confidence in an automated test suite. Testers and QA are very important, but you should get the idea.
 
 So, the short answer to the question Why should I test legacy code is; so that I can get rid of it.
