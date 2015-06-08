@@ -16,6 +16,7 @@ author:
   url:            https://twitter.com/garoevans
 
 paginate:         5
+paginate_path:   '/page/:num/'
 
 # Custom vars
 version:          0.0.1
