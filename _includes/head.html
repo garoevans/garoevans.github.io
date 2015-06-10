@@ -14,8 +14,24 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/style.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <script>
+    var cb = function() {
+      var h = document.getElementsByTagName('head')[0];
+      var hrefs = {
+        style: "/public/css/style.css",
+        font: "http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"
+      };
+      for (href in hrefs) {
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.href = hrefs[href];
+        h.parentNode.insertBefore(l, h);
+      }
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+  </script>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
