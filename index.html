@@ -24,7 +24,7 @@ redirect_from:
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
-    <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15034490'></div>
+    <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15034490' data-title='{{ post.title }}' data-link='{{ site.url }}{{ post.url }}'></div>
   </div>
   {% endfor %}
 </div>
