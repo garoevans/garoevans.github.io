@@ -12,7 +12,7 @@ redirect_from:
 - /category/software-craftsmanship/
 ---
 
-<div class="posts">
+<div class="posts home">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -24,6 +24,7 @@ redirect_from:
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+    <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15034490'></div>
   </div>
   {% endfor %}
 </div>

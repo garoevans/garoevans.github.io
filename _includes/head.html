@@ -25,7 +25,7 @@
         var l = document.createElement('link');
         l.rel = 'stylesheet';
         l.href = hrefs[href];
-        h.parentNode.insertBefore(l, h);
+        h.appendChild(l, h);
       }
     };
     var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
