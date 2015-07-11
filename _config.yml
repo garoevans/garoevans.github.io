@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            GAROEVANS
-tagline:          'Developer, Apprentice, Father & Husband'
-description:      'A dumping ground for Gareth Evans: Developer, Apprentice, Father & Husband'
+title:            Gareth Evans
+tagline:          'Principal Developer at Switch Concepts'
+description:      'Gareth Evans: Principal Developer at Switch Concepts'
 url:              http://garoevans.com
 
 author:
