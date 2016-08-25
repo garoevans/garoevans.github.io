@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Testing Legacy PHP, Why?
+category: testing
 ---
 
 In my first post in this testing series; [Testing Legacy PHP: Characterization Tests](/2014/06/14/testing-legacy-php-characterization-tests/), I looked at how we might go about testing legacy PHP. Now I want to look at why we might go about testing legacy PHP.
+<!--more-->
 
 Strangely, the first time it occurred to me that I might need to test some legacy code I had was when I wanted to get rid of it. When I say some legacy code I mean hundreds of thousands of lines of code. This code, as [Paul Jones](https://twitter.com/pmjones) would put it in his book [Modernizing Legacy Applications In PHP](https://leanpub.com/mlaphp) is include oriented.
 
-##An Important Note
+## An Important Note
 
 It’s important to note that this realisation was based around my desire to refactor the legacy code base. In a perfect world I would stop all development on legacy systems and start an amazing re-write. If this was the case tests around legacy code may help describe the tasks undertaken by certain code but wouldn’t server any testing benefit  the same way as we can get when iteratively refactoring.
 
@@ -18,7 +20,7 @@ The rewrite vs refactor debate is not one I’m going to get into here, but you 
 - [http://www.klocwork.com/blog/code-refactoring/refactoring-vs-rewriting-why-it-matters/](http://www.klocwork.com/blog/code-refactoring/refactoring-vs-rewriting-why-it-matters/)
 - [http://www.joelonsoftware.com/articles/fog0000000069.html](http://www.joelonsoftware.com/articles/fog0000000069.html)
 
-##Why?
+## Why?
 
 It became very obvious very quickly that to safely refactor large amounts of code over time I would need some way to validate that I hadn’t broken anything. Not breaking something might mean supporting that weird bug that we never wanted. If you were to fix some code that had a strange side effect, you may find that someone somewhere was relying on that side effect.
 

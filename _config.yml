@@ -1,36 +1,18 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: pygment
 
-# Permalinks
-permalink:        pretty
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
-# Setup
-title:            Gareth Evans
-tagline:          'VP of Engineering at Just Develop It'
-description:      'Gareth Evans: VP of Engineering at Just Develop It'
-url:              http://garoevans.com
+excerpt_separator: <!--more-->
 
-author:
-  name:           'Gareth Evans'
-  url:            https://twitter.com/garoevans
-
-paginate:         5
-paginate_path:   '/page/:num/'
-
-# Custom vars
-version:          0.0.1
-
-github:
-  repo:           https://github.com/garoevans/garoevans.github.io
-
-defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts
+paginate: 5
+paginate_path: "/blog/page/:num/"
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate

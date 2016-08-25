@@ -1,47 +1,27 @@
 ---
+title: Home
 layout: default
-redirect_from:
-- /2013/09/04/
-- /2014/
-- /2014/08/22/
-- /2013/09/04/my-name-is-gareth/
-- /2013/11/25/
-- /2013/12/
-- /author/garoevans/
-- /category/proxy/
-- /category/software-craftsmanship/
 ---
 
-<div class="posts home">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-    <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15034490' data-title='{{ post.title }}' data-link='{{ site.url }}{{ post.url }}'></div>
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page/{{paginator.next_page}}/">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page/{{paginator.previous_page}}/">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+	<div id="main">
+		<div class="container">
+			{% for post in site.posts offset: 0 limit: 1 %}
+			<div class="row">
+				<div class="2u -2u">
+					<a href="/blog/category/{{ post.category }}/">{{ post.category | capitalize }}</a>
+				</div>
+				<div id="content" class="6u">
+					<article>
+						<header>
+							<h2>{{ post.title }}</h2>
+						</header>
+						{{ post.content }}
+						<footer>
+							<a href="{{ site.prefix }}{{ post.url }}" class="date"># <span>{{ post.date | date: "%B %-d, %Y" }}</span></a>
+						</footer>
+					</article>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>

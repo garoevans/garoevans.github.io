@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Software Craftsmanship, Not For Everyone
+category: craftsmanship
 ---
 
 I posted a few days ago about a lesson I’d learnt; [Learn Everything All Of The Time. Right?](http://blog.garoevans.com/2014/08/19/learn-everything-all-of-the-time-right/) Long story short, There’s only so much you can do… but what if you don’t want to do it?
+<!--more-->
 
 Another lesson I’ve learnt is that not everyone wants to be a Software Craftsman. I use the term Software Craftsman after reading the book [Software Craftsmanship](https://leanpub.com/socra) by [Sandro Mancuso](https://twitter.com/sandromancuso). So much of this book resonated with me:
 

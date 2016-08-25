@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Damn You, DateTime
+category: code
 ---
 
 So, yesterday (Sunday) I had a phone call, it was from the on call dev. There was a problem with some code I’ve written. Since midnight on the 31st August these crons that run every hour were erroring. Something about September reporting as October… weird.
+<!--more-->
 
 Now, I’ve run into date problems in PHP before. Have you ever tried iterating over a long period of time one [strtotime(‘+1 month’, $someTime);](http://php.net/manual/en/function.strtotime.php) at a time? Get it wrong and you’ll end up a month ahead, or even the same month and this is kind of what happened this weekend, even though I thought I was being good and using the [DateTime](http://php.net/manual/en/class.datetime.php) object:
 

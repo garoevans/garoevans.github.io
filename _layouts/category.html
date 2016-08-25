@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
+			{% for post in site.categories[page.category] %}
+			<div class="row">
+				<article class="6u -4u">
+					<header>
+						<h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
+					</header>
+					<footer>
+						<a href="{{ site.prefix }}{{ post.url }}" class="date"># <span>{{ post.date | date: "%B %-d, %Y" }}</span></a>
+					</footer>
+				</article>
+			</div>
+			{% endfor %}
+		</div>
+	</div>

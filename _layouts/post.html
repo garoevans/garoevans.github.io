@@ -1,26 +1,26 @@
 ---
 layout: default
 ---
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-  <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15034490' data-title='{{ page.title }}'></div>
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<!-- Main -->
+	<div id="main">
+		<div class="container">
+			<div class="row">
+				<div class="2u -2u">
+					<a href="/blog/category/{{ page.category }}/">{{ page.category | capitalize }}</a>
+				</div>
+				<div id="content" class="6u">
+					<article>
+						{% if page.featured %}
+						<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
+						{% endif %}
+						<header>
+							<h2>{{ page.title }}</h2>
+						</header>
+						<div id="post">
+							{{ page.content }}
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>

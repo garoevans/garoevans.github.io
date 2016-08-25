@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Global Installation of Composer on Ubuntu
+category: code
 ---
 
 {% highlight bash %}

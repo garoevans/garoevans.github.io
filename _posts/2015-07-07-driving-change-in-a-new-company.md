@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Driving Change In A New Company
+category: leadership
 ---
 
 Change in an ever evolving environment is crucial. Stay still for too long and
@@ -8,6 +9,7 @@ the competition will have moved too far too fast for you to keep up. One of the
 primary focuses of my role is driving change. This change impacts a whole
 technical department and spans process change through to culture change. As time
 goes by initiating change becomes easier but this wasn't always the case.
+<!--more-->
 
 The challenge of initiating change in a new company can depend on many things:
 company size, position, culture, hierarchy; but one thing I've found to be true

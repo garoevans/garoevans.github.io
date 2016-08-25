@@ -1,57 +1,73 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!DOCTYPE HTML>
+<!--
+Linear by TEMPLATED
+templated.co @templatedco
+Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+	<title>{% if page.title %}{{ page.title }} - Gareth Evans{% else %}Gareth Evans - VP of Engineering at Just Develop It{% endif %}</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/skel-panels.min.js"></script>
+	<script src="/assets/js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="/assets/css/skel-noscript.css" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/style-desktop.css" />
+	</noscript>
+</head>
+<body>
 
-  {% include head.html %}
+	<!-- Header -->
+	<div id="header">
+		{% include nav.html %}
+	</div>
+	<!-- Header -->
+	{{ content }}
 
-  <body class="theme-base-0d">
+<!-- Footer -->
+<div id="footer">
+	<div class="container">
+		<section>
+			<ul class="categories">
+				{% assign cat_array = "" | split:"|"  %}
+				{% for category in site.categories %}
+				{% assign cat_array = cat_array | push: category[0] %}
+				{% endfor %}
+				{% assign sorted_cat_array = (cat_array | sort) %}
+				{% for category in sorted_cat_array %}
+				<li><a href="/blog/category/{{ category }}/">{{ category | capitalize }}</a></li>
+				{% endfor %}
+			</ul>
+			<ul class="contact">
+				<li><a href="https://twitter.com/garoevans" class="fa fa-twitter"><span>Twitter</span></a></li>
+				<li><a href="https://uk.linkedin.com/in/garoevans/" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+				<li><a href="https://github.com/garoevans" class="fa fa-github"><span>GitHub</span></a></li>
+			</ul>
+		</section>
+	</div>
+</div>
 
-    {% include sidebar.html %}
+<!-- Copyright -->
+<div id="copyright">
+	<div class="container">
+		Copyright &copy; 2013-{{ site.time | date: '%Y' }} <a href="/">garoevans</a>
+		Design: <a href="http://templated.co">TEMPLATED</a>
+		Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
+	</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-43749495-2', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-    <script type="text/javascript">
-    //<![CDATA[
-    (function() {
-        var shr = document.createElement('script');
-        shr.setAttribute('data-cfasync', 'false');
-        shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
-        shr.type = 'text/javascript'; shr.async = 'true';
-        shr.onload = shr.onreadystatechange = function() {
-            var rs = this.readyState;
-            if (rs && rs != 'complete' && rs != 'loaded') return;
-            var site_id = 'c5252185e8583ac2db4c66d7556ba08d';
-            try { Shareaholic.init(site_id); } catch (e) {}
-        };
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(shr, s);
-    })();
-    //]]>
-    </script>
-  </body>
+  ga('create', 'UA-43749495-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
 </html>

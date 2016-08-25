@@ -1,13 +1,15 @@
 ---
 layout: post
 title: So You Want a New Job?
+category: work
 ---
 
 Recently I found myself making the decision to take the next step in my career. For me this involved looking for a new job. It is important not to confuse the words job and career here; my career involves the internet and computers and my job is my current role, wherever it is and whatever I’m doing it’s going to be under the internet/computer (career) umbrella.
+<!--more-->
 
 When I first realised that I wanted to take the next step I started thinking about all the things that I needed to consider before I could even tell anyone (apart from my wife of course!) Below I’ve tried to summarise my thought process; or, what I now think my thought process should have been to help me along the way.
 
-##Why Do You Want a New Job?
+## Why Do You Want a New Job?
 
 There are loads of different reasons why someone might want a new job. For the sake of keeping it short I’m discounting a career change, this piece is written by me (a developer) about getting a new developer or “role complimentary to development” role. I’m not going to talk about hanging up my keyboard to become a spaceman.
 
@@ -15,13 +17,13 @@ The best reason I can muster for a new job is for a new challenge, to keep thing
 
 Changing job for a positive reason will make the whole process a more enjoyable one (and it should/can be enjoyable), it’ll help open your mind and keep you focused on the important thing: what position is right for you.
 
-##What Do You Want to Do?
+## What Do You Want to Do?
 
 This should be a pretty simple step, you’re either a developer or a manager right? Well, kinda. Personally I love writing code, and always will, but I do get an extra kick from leading a team and having that extra bit of direction and input into a project.
 
 Now don’t get me wrong, there are plenty of roles out there; developer/engineer, QA, testing, training, the list goes on. What I’m trying to get at is that you don’t have to be too strict here. If you find the right company there’s no reason that you can’t try out different roles, dabble a bit. If you show some direction, drive and are genuinely an asset to this company they should let you be the best asset you can be!
 
-##How Do You Want to Do It?
+## How Do You Want to Do It?
 
 This article is mainly aimed at people in the world of full time employment but there are other routes to getting paid. It’s now that you need to make the decision, which path to take:
 
@@ -32,7 +34,7 @@ This article is mainly aimed at people in the world of full time employment but 
 
 Each of these have their pros and cons and you need to make the decision that is best for you. While I was trying to make this decision I set up a new limited company and was looking for contract work. By the end of the process I’d thrown that out the window and went for a regular old full time job.
 
-##When Do You Hand Your Notice In?
+## When Do You Hand Your Notice In?
 
 This section is aimed at people who are currently in full time employment. If you are self employed you can do whatever you fancy.
 
@@ -42,7 +44,7 @@ If your notice period is massive (over 3 months) your going to want to crack on 
 
 One thing to touch on from here is leaving on bad terms. Leaving on bad terms is unfortunate but it is a part of life. I tried to find a blog post I read some time ago about how this should go but failed to find it. Basically, an employer should see your leaving for a new position as a sign that they did their job well. You had room to grow and have continued to develop your own skills and have outgrown that role. That’s a good thing and there is no reason for your decision to leave to be taken badly.
 
-##How Do You Find a New Job?
+## How Do You Find a New Job?
 
 So you’ve figured a few things out; why you’re leaving, what you want to do next, how you want to do it and when you want to do it. Now you have to find that role, but how? As I see it you can either do it yourself or get someone to do it for you. This ideology will treat you well in all of life’s decisions. Either do it yourself or get someone else to do it.
 
@@ -67,7 +69,7 @@ US dwellers may find an experienced recruiter such as [Scott Gordon](https://twi
 
 If you do find yourself working with an unknown recruiter just remember they are now working for you. If they do their job well, they’ll get paid. They want you to get a new job, most want you to get the right one, but don’t count on that. Don’t feel pushed or pressured into any decisions. If you don’t like something or want more time to think before making a decision then take your time and do what you want. If you have questions about the company ask the recruiter, if they don’t know the answer they can find things out. Hopefully they have a good relationship with the company in question and will make all these steps as easy as possible for you and them.
 
-##My CV Is OK: Right?
+## My CV Is OK: Right?
 
 So you’ve found a few jobs you like the look of, the next thing to do is apply. Now is the time that you draw a blank, forget everything you know and everything you’ve ever learnt in your career. Now’s the time you have to step outside your comfort zone and write your CV.
 
@@ -80,13 +82,13 @@ So;
 3. Tell the truth, and
 4. Don’t lie.
 
-##How Much Do You (Want to) Earn?
+## How Much Do You (Want to) Earn?
 
 [How to Answer the Question “What Was Your Last Salary?”](http://www.linkedin.com/today/post/article/20131217070749-52594-how-to-answer-the-question-what-was-your-last-salary?_mSplash=1) by *Liz Ryan* really does sum this up, there should be no more to say on the subject…
 
 If however it’s more important for you to get a job than make an unemployed stand just be honest. You know what you’re worth and so will your potential new employer. If you disagree on that magic number then be strong enough to walk away.
 
-##Interviews ARE Fun, Right?
+## Interviews ARE Fun, Right?
 
 Lots of people don’t like interviews. People think they are scary. The only reason an interview could be scary is if you don’t know your stuff (or you lied on your CV).
 
@@ -103,6 +105,6 @@ The list goes on, think about the things you like/dislike in your current positi
 
 Try and be creative, if you can’t answer a question say “I don’t know the answer”, but explain how you’d go about finding the answer or what you’ve done that could solve something in a different way. The chances are you’re going to be talking to at least one other tech guy, get him on your side!
 
-##Summing Up
+## Summing Up
 
 Changing jobs can be scary and many people will stay in their comfort zone and stifle their progression to be safe. Being safe will result in a few things; limit your progress, reach you learning limit/boundary and become stale amongst other things. There are good sides to being safe but if you really like what you do you should be pushing to always do better. A change can be good, mix it up!

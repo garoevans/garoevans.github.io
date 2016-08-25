@@ -1,6 +1,7 @@
 ---
 layout: post
 title: List of Blogs/Posts/Videos/Podcasts/Other
+category: other
 ---
 
 Updated: December 18th, 2013
@@ -10,6 +11,7 @@ keep up to date with technology and the web. It’s hard to stay on the cutting
 edge, it’s even harder to get there in the first place. Below is a list of
 posts/videos/podcasts that I've found interesting over the years. The majority
 of them should be timeless.
+<!--more-->
 
 There's also a few bits at the end that I just like being reminded of. Useful
 things!
@@ -18,7 +20,7 @@ It's also worth noting that some of these blog posts have contradicting views.
 This isn't to say that I *follow* or *believe* all of the below. These are articles
 that I've found useful in progressing myself in this industry.
 
-##Blogs
+## Blogs
 
 - [Kitchen Soap](http://www.kitchensoap.com/) *by John Allspaw*
 - [ircmaxells's blog](http://blog.ircmaxell.com/) *by Anthony Ferrara*
@@ -28,7 +30,7 @@ that I've found useful in progressing myself in this industry.
 - [igorw](https://igor.io/) *by Igor Wiedler*
 - [kunststube](http://kunststube.net/) *by David C. Zentgraf*
 
-##Posts
+## Posts
 
 - [Loyalty and Layoffs](http://heartmindcode.com/2013/08/16/loyalty-and-layoffs/) *by David Brady*
 - [What do you make as a manager?](https://medium.com/this-happened-to-me/b5436855a995) *by Marc Hedlund*
@@ -48,19 +50,19 @@ that I've found useful in progressing myself in this industry.
 - [The origin of the 8 hour work day and why we should rethink it](http://blog.bufferapp.com/optimal-work-time-how-long-should-we-work-every-day-the-science-of-mental-strength) *by Leo Widrich*
 - [Founders: How to Destroy Your Company Culture](http://southernalpha.com/founders-how-to-destroy-your-company-culture/) *by Brittany Mcghee*
 
-##Videos
+## Videos
 
 - [DrupalCon Portland 2013: DEVELOPMENT, BY THE NUMBERS](https://www.youtube.com/watch?feature=player_embedded&v=fnRwfjMqKM8) *by Anthony Ferrara*
 - [Cal Evans – Geek To English](http://vimeo.com/52896407) *by Cal Evans*
 - [Building a Website To Scale](http://www.youtube.com/watch?v=RlkCdM_f3p4) *by Eric Pickup*
 - [DON'T BE STUPID, GRASP SOLID](https://prague2013.drupal.org/session/dont-be-stupid-grasp-solid) *by Anthony Ferrara*
 
-##Podcasts
+## Podcasts
 
 - [PHP Town Hall](http://phptownhall.com/)
 - [Dev Hell](http://devhell.info/)
 
-##Other
+## Other
 
 - [http://gskinner.com/RegExr/](http://gskinner.com/RegExr/)
 - [http://gskinner.com/RegExr/](http://gskinner.com/RegExr/)

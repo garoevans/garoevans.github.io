@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Self Invoking Non-Anonymous Function with Timeout
+category: code
 ---
 
 Useful anonymous function. Named for calling, but self invoking. Timeout added for example purposes.

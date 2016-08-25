@@ -1,25 +1,27 @@
 ---
 layout: post
 title: Anonymous Web Proxy With Squid on Ubuntu
+category: code
 ---
 
-##The Problem
+## The Problem
 
 I was doing a little bit of testing on a web app earlier today and I wanted to be able to switch my IP easily. I’d never used a web proxy before, I’ve never had the need to.
 
 First I found some [free proxy listings](http://www.freeproxylists.net/) on sites like [HIDE MY ASS](http://hidemyass.com/proxy-list/), these give you an IP address and port to connect to from your browser. This did the trick but I felt a little vulnerable going through some random proxy. This wasn’t the solution for me.
+<!--more-->
 
 Then I found [Squid](http://www.squid-cache.org/). This solved all my problems in one beautiful move, all I needed was a box somewhere to do my dirty work (luckily I have a very reasonable droplet at [Digital Ocean](https://www.digitalocean.com/?refcode=c5bcfe2a51e7)) and the following setup.
 
-##The Solution
+## The Solution
 
-###1. Install the Squid server on Ubuntu 12.04
+### 1. Install the Squid server on Ubuntu 12.04
 
 {% highlight bash %}
 sudo apt-get install squid
 {% endhighlight %}
 
-###2. Make a backup of the config file before you mess it up :)
+### 2. Make a backup of the config file before you mess it up :)
 
 {% highlight bash %}
 sudo cp /etc/squid3/squid.conf /etc/squid3/squid.conf.original
@@ -28,7 +30,7 @@ sudo chmod a-w /etc/squid3/squid.conf.original
 
 *For the next few steps I’m going to use some pretend IPs for the purpose of this post. Let’s say my home IP address (where I’m using my browser) is “1.2.3.4” and my server’s IP address is “11.22.33.44”.*
 
-###3. Add some Squid config lines to allow access from your home machine
+### 3. Add some Squid config lines to allow access from your home machine
 
 {% highlight bash %}
 acl home src 1.2.3.4/24
@@ -37,7 +39,7 @@ http_access allow home
 
 *The first line needs to come first :) and is best kept with the other default `acl` config lines. The second line needs to come before the default deny from all `http_access deny all`.*
 
-###4. Restart Squid
+### 4. Restart Squid
 
 {% highlight bash %}
 sudo /etc/init.d/squid3 restart
@@ -47,7 +49,7 @@ sudo /etc/init.d/squid3 restart
 
 *__Top Tip:__ do you use a firewall? Make sure port 3128 is open for incoming traffic.*
 
-###5. Make it Anonymous, add the following to the bottom of your config
+### 5. Make it Anonymous, add the following to the bottom of your config
 
 {% highlight bash %}
 acl ip1 myip 11.22.33.44
@@ -87,10 +89,10 @@ request_header_access All deny all
 
 *The first two lines tell squid that any connection coming in on “11.22.33.44” should have an outgoing IP of “11.22.33.44”. You can set your outgoing to whatever you like.*
 
-###6. Restart Squid (see point 4)
+### 6. Restart Squid (see point 4)
 
 And we’re done. You’re proxy server is now set up safely and anonymously. You can add incoming IPs so that you can access it from other locations and configure it to your hearts content.
 
-##And More
+## And More
 
 To make life even easier, using Chrome I added the [Proxy Switchy!](https://chrome.google.com/webstore/detail/proxy-switchy/caehdcpeofiiigpdhbabniblemipncjj) extension. This allows me to save as many proxy profiles as I like to easily switch between.

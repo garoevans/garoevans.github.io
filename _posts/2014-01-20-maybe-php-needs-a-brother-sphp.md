@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Maybe PHP Needs a Brother, SPHP
+category: code
 ---
 
-So, I’ve been trying my best recently to keep up to date with “the community” and it’s often… how do I put this; NUTS! I’m subscribe to the [PHP](http://php.net/) internals mailing list, and though it is very interesting and I love knowing what’s going on, these guys can get rude. To me, it seems that PHP is at a cross roads and some REALLY big decisions are needing to be made. Take a look at some of these RFCs:
+So, I’ve been trying my best recently to keep up to date with “the community” and it’s often… how do I put this; NUTS! I’m subscribe to the [PHP](http://php.net/) internals mailing list, and though it is very interesting and I love knowing what’s going on, these guys can get rude. To me, it seems that PHP is at a cross roads and some REALLY big decisions are needing to be made. <!--more-->Take a look at some of these RFCs:
 
 - [https://wiki.php.net/rfc/arrayof](https://wiki.php.net/rfc/arrayof)
 - [https://wiki.php.net/rfc/typechecking](https://wiki.php.net/rfc/typechecking) – not an RFC, but relevant
@@ -24,7 +25,7 @@ There was also a mention of replacing the [Zend Engine](http://www.zend.com/en/c
 
 Now that is an interesting thought.
 
-##Welcome In The New
+## Welcome In The New
 
 So; I’ve come up with a solution (idea)… SPHP, the ‘S’ stands for Strict. Why can’t this branch? There are enough developers in the world interested in both avenues that PHP seems to be trying to cater for. Internals is insanely busy, and there is no lack of RFCs to keep everything moving. This could be a great opportunity to take something like HHVM and start fresh. Not completely fresh of course, but just fresh enough to have some nice things:
 

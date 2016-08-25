@@ -1,0 +1,54 @@
+---
+title: Blog
+layout: default
+---
+
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
+			{% for post in paginator.posts %}
+			<div class="row">
+				<article class="6u -4u">
+					<header>
+						<h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
+					</header>
+					<p>
+						{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ site.prefix }}{{ post.url }}">More</a>
+					</p>
+					<footer>
+						<a href="{{ site.prefix }}{{ post.url }}" class="date"># <span>{{ post.date | date: "%B %-d, %Y" }}</span></a>
+						-
+						<a href="/blog/category/{{ post.category }}/">{{ post.category | capitalize }}</a>
+					</footer>
+				</article>
+			</div>
+			{% endfor %}
+			{% if paginator.total_pages > 1 %}
+			<div class="row">
+				<div class=" 6u -4u pagination">
+				  {% if paginator.previous_page %}
+				    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-left"></i> Prev</a>
+				  {% else %}
+				    <span><i class="fa fa-arrow-left"></i> Prev</span>
+				  {% endif %}
+
+				  {% for page in (1..paginator.total_pages) %}
+				    {% if page == paginator.page %}
+				      <strong>{{ page }}</strong>
+				    {% elsif page == 1 %}
+				      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+				    {% else %}
+				      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+				    {% endif %}
+				  {% endfor %}
+
+				  {% if paginator.next_page %}
+				    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i class="fa fa-arrow-right"></i></a>
+				  {% else %}
+				    <span>Next <i class="fa fa-arrow-right"></i></span>
+				  {% endif %}
+				</div>
+			</div>
+			{% endif %}
+		</div>
+	</div>

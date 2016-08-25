@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Testing Legacy PHP, Characterization Tests
+category: testing
 ---
 
 In the perfect world questions like "how do I test this?" are easily answered with one or multiple different test types like; [Unit Tests](http://en.wikipedia.org/wiki/Unit_testing) and [Integration Tests](http://en.wikipedia.org/wiki/Integration_testing). But in the big world of legacy code often these *don't fit*.
+<!--more-->
 
 Wouldn't it be lovely if everyone's first endeavour in a new project was to write some tests using [TDD](http://en.wikipedia.org/wiki/Test-driven_development), [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development) or even [DDD](http://en.wikipedia.org/wiki/Domain-driven_design) to some respects. Maybe in two or three years time all the projects that are being started today will appear to be [Legacy Code](http://en.wikipedia.org/wiki/Legacy_code). I think that is fairly likely for some pieces of code.
 
-##So how do we go about testing legacy code?
+## So how do we go about testing legacy code?
 
 > My function is 3000 lines long, how many unit tests do I need to full coverage?
 
@@ -15,7 +17,7 @@ Wouldn't it be lovely if everyone's first endeavour in a new project was to writ
 
 > The server setup is so specific and state-full, the outcome always changes!
 
-##Enter the [Characterization Tests](http://en.wikipedia.org/wiki/Characterization_test)!
+## Enter the [Characterization Tests](http://en.wikipedia.org/wiki/Characterization_test)!
 
 > a means to describe (characterize) the actual behavior of an existing piece of software, and therefore protect existing behavior of legacy code against unintended changes
 
