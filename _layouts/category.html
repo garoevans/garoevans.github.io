@@ -10,6 +10,9 @@ layout: default
 					<header>
 						<h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
 					</header>
+					<p>
+						{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ site.prefix }}{{ post.url }}">More</a>
+					</p>
 					<footer>
 						<a href="{{ site.prefix }}{{ post.url }}" class="date"># <span>{{ post.date | date: "%B %-d, %Y" }}</span></a>
 					</footer>
