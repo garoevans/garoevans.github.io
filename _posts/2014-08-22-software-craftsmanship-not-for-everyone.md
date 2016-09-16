@@ -2,6 +2,8 @@
 layout: post
 title: Software Craftsmanship, Not For Everyone
 category: craftsmanship
+redirect_from:
+- /2014/08/22/software-craftsmanship-not-for-everyone/
 ---
 
 I posted a few days ago about a lesson I’d learnt; [Learn Everything All Of The Time. Right?](http://blog.garoevans.com/2014/08/19/learn-everything-all-of-the-time-right/) Long story short, There’s only so much you can do… but what if you don’t want to do it?
