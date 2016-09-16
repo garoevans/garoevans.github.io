@@ -2,6 +2,8 @@
 layout: post
 title: Anonymous Web Proxy With Squid on Ubuntu
 category: code
+redirect_from:
+- /2013/11/28/anonymous-web-proxy-with-squid-on-ubuntu/
 ---
 
 ## The Problem
