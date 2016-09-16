@@ -2,6 +2,8 @@
 layout: post
 title: NCSA Authentication For Squid
 category: code
+redirect_from:
+- /2013/11/29/ncsa-authentication-for-squid/
 ---
 
 ## Introduction
