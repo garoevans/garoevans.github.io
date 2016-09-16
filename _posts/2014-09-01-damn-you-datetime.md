@@ -2,6 +2,8 @@
 layout: post
 title: Damn You, DateTime
 category: code
+redirect_from:
+- /2014/09/01/damn-you-datetime/
 ---
 
 So, yesterday (Sunday) I had a phone call, it was from the on call dev. There was a problem with some code I’ve written. Since midnight on the 31st August these crons that run every hour were erroring. Something about September reporting as October… weird.
