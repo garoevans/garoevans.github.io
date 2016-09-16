@@ -2,6 +2,8 @@
 layout: post
 title: Testing Legacy PHP, Why?
 category: testing
+redirect_from:
+- /2014/07/03/testing-legacy-php-why/
 ---
 
 In my first post in this testing series; [Testing Legacy PHP: Characterization Tests](/2014/06/14/testing-legacy-php-characterization-tests/), I looked at how we might go about testing legacy PHP. Now I want to look at why we might go about testing legacy PHP.
