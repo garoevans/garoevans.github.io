@@ -2,6 +2,8 @@
 layout: post
 title: Testing Legacy PHP, Characterization Tests
 category: testing
+redirect_from:
+- /2014/06/14/testing-legacy-php-characterization-tests/
 ---
 
 In the perfect world questions like "how do I test this?" are easily answered with one or multiple different test types like; [Unit Tests](http://en.wikipedia.org/wiki/Unit_testing) and [Integration Tests](http://en.wikipedia.org/wiki/Integration_testing). But in the big world of legacy code often these *don't fit*.
