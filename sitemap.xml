@@ -5,12 +5,12 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.prefix }}</loc>
+        <loc>{{ site.url }}</loc>
         <priority>1.000</priority>
     </url>
     {% for post in site.posts %}
     <url>
-        <loc>{{ site.prefix }}{{ post.url }}</loc>
+        <loc>{{ site.url }}{{ post.url }}</loc>
         <priority>0.500</priority>
     </url>
     {% endfor %}
