@@ -2,6 +2,8 @@
 layout: post
 title: Learn Everything All Of The Time. Right?
 category: craftsmanship
+redirect_from:
+- /2014/08/19/learn-everything-all-of-the-time-right/
 ---
 
 I learnt a lesson recently. I realised that I couldn’t learn everything all the time. Simple, right? Well as a developer, and as an individual in control of my own career I take pride in keeping up to date with the changes in the technologies I use and the tools around me. Over the past 6 months however I found I was wanting to do more and more, but as a result was doing less and less.
