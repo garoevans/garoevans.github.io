@@ -2,6 +2,8 @@
 layout: post
 title: Driving Change In A New Company
 category: leadership
+redirect_from:
+- /2015/07/07/driving-change-in-a-new-company/
 ---
 
 Change in an ever evolving environment is crucial. Stay still for too long and
