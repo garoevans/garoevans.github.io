@@ -2,6 +2,8 @@
 layout: post
 title: So You Want a New Job?
 category: work
+redirect_from:
+- /2013/12/31/so-you-want-a-new-job/
 ---
 
 Recently I found myself making the decision to take the next step in my career. For me this involved looking for a new job. It is important not to confuse the words job and career here; my career involves the internet and computers and my job is my current role, wherever it is and whatever I’m doing it’s going to be under the internet/computer (career) umbrella.
