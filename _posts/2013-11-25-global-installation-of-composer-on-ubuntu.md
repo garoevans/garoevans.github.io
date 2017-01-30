@@ -2,6 +2,8 @@
 layout: post
 title: Global Installation of Composer on Ubuntu
 category: code
+redirect_from:
+- /2013/11/25/global-installation-of-composer-on-ubuntu/
 ---
 
 {% highlight bash %}
