@@ -203,6 +203,11 @@
 		font-size: 1.1em;
 		margin-bottom: 0.4em;
 	}
+  article       ul
+	{
+		margin-left: 1.5em;
+		list-style: disc;
+	}
 
 	#sidebar h2
 	{
