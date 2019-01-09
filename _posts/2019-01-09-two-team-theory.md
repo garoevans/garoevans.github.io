@@ -11,7 +11,7 @@ I believe that every person in an organisation is a member of two teams. These a
 
 ## The Theory
 
-> Every human in an organisation is a member of two teams, their Primary and Secondary teams. The Secondary team is determined by the individuals scope of influence and the Primary team is determined by the individuals peer group. Individuals should avoid, at all costs. making decision that improve the Secondary team if it has a negative impact on the Primary.
+> Every human in an organisation is a member of two teams, their Primary and Secondary teams. The Secondary team is determined by the individuals scope of influence and the Primary team is determined by the individuals peer group. Individuals should avoid, at all costs, making decisions that improve the Secondary team if it has a negative impact on the Primary.
 
 ## So What?
 
