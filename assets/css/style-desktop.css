@@ -64,6 +64,11 @@
 		font-size: 1.2em;
 		margin-bottom: 0.6em;
 	}
+  article       ul
+	{
+		margin-left: 1.5em;
+		list-style: disc;
+	}
 
 	#sidebar h2
 	{
