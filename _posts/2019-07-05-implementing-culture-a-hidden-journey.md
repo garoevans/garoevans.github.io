@@ -11,7 +11,7 @@ __The hard part? Implementation.__
 
 Culture usually comes with some gimmes; but everything else, that’s for you to decide. Folks want to feel safe and challenged, included and acknowledged, aligned and free. Free to make positive changes to the world you’ve introduced them to. Defining your values, your world, and your culture is a critical step. But, that is not the step we are exploring in this article; here, we are going to take all of the great decisions that have been made about the future of your world and we’re going to implement.
 
-So you’re ready to implement? You want to share these ideas? You want to socialised them, get everyone behind you. You’re motivated; ready to go, preaching to the masses, all hands, email, slack, posters, this is it, this is our culture, this is our future. Ummm, no.
+So you’re ready to implement? You want to share these ideas? You want to socialise them, get everyone behind you. You’re motivated; ready to go, preaching to the masses, all hands, email, slack, posters, this is it, this is our culture, this is our future. Ummm, no.
 
 Telling Bob or Belinda what the culture is or how to become part of the culture is an anti-pattern. Instead, finding phenomenal folk with the personalities, beliefs, and dreams that add to and compliment your culture is where this really begins. And then, implementation, well; that should stay hidden!
 
